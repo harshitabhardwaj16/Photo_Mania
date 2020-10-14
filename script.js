@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // All JavaScript
     /* Pop up window */
     // let magic = prompt("Please type a number from 1 to 10");
-    alert("Thank you for visiting Pixel Plus ...!!");
+    alert("Thank you for visiting Photo Mania ...!!");
   
   
     // Site Header - Navigation Bar (Smooth Scrolling to sections)
