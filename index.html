@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head - Hidden Section-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photo Mania &trade; Co.</title>
+    <!--Eric Meyer CSS Reset Link-->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <!-- Flickity Slider - JavaScript Link -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!--JQuery Reference Link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Typography/Icons-->
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Flickty Slider - CSS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!--Body - Visible Section-->
+
+<body>
+    <!--Site Header - Make Fixed-->
+    <header id="site-header" class="site-header container">
+        <!--Add logos in svg-->
+        <section class="site-header-flex">
+            <div class="company-logo">
+                <img src="images/photomania2.jpg" alt="Pixelplus  Co.">
+            </div>
+            <div class="navigation-bar">
+                <nav class="navigation-top">
+                    <ul>
+                        <li><a href="#about" name="About">About</a></li>
+                        <li><a href="#Filters" name="Shop">Filters</a></li>
+                        <li><a href="#Instructions" name="Instructions">Instructions</a></li>
+                        <li><a href="#signup" name="Updates">Updates</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <!--Section 1 - Site Banner-->
+    <section id="banner" class="banner container"></section>
+    <!--Section 2 - About Aloha-->
+    <section id="about" class="about container">
+        <div class="about-text">
+            <br><br>
+            <h2>
+                Millions of &nbsp;
+                <span class="emboss">
+                    Filters
+                </span>
+            </h2>
+            <p>
+                Play With Filters
+            </p>
+            <p>
+                Browse our current selection of Filters  or <br /> sign-up for updates below.
+            </p>
+        </div>
+    </section>
+    <!--Section 3 - All Product Categories-->
+    <div id=>
+    <section id="Filters" class="products">
+        <br><br><br><br>
+        <div class=product-category>
+
+            <div class="wide-sizea Gray">
+                <span class="product-text">
+                    <a href="grayscale.html" name="Gray">Gray</a>
+                </span>
+            </div>
+
+            <div class="normal-sizea">
+                <div class="normal-size Red">
+                    <span class="product-text">
+                        <a href="red.html" name="Red">Red</a>
+                    </span>
+                </div>
+
+                <div class="normal-size Blur">
+                    <span class="product-text">
+                        <a href="blur.html" name="Blur">Blur</a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="normal-sizeb">
+                <div class="normal-size BlackFrame">
+                    <span class="product-text">
+                        <a href="blackFrame.html" name="BlackFrame">Black frame</a>
+                    </span>
+                </div>
+                <div class="normal-size WhiteFrame">
+                    <span class="product-text">
+                        <a href="whiteFrame.html" name="WhiteFrame">White Frame</a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="wide-sizeb Rainbow">
+                <span class="product-text">
+                    <a href="rainbow.html" name="Rainbow">Rainbow</a>
+                </span>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section 4 - Featured Products-->
+    <section id="Instructions" class="Instructions container">
+        <div class="highlights-content">
+            <h2>
+                <br><br>
+                <span class="emboss">
+                    Instructions:
+                </span>
+            </h2>
+                 <br>
+            <h4>
+                &nbsp;please upload an image file under the "Choose File" button and then play with filters by selecting the filters under Select Filter section.
+            </h4>
+                <br>
+            <h2>
+                <span class="emboss">
+                    Filter Description:
+                </span>
+            </h2>
+                <br>
+            <h4>
+                <b>Grey:</b>&nbsp; Filter your uploaded image by using contrasting color hues based only on white and black.
+            <br>
+                <b>Red:</b>&nbsp; The reddish version of Grayscale filter. The base colors are Red and white.
+            <br>
+                <b>Blur:</b>&nbsp; Make the uploaded picture blurring as well as opaque.
+            <br>
+                <b>Rainbow:</b>&nbsp; Filter your uploaded image in a way that imitates the arrangement of sunlight spectrum.
+            <br>
+                <b>Add Frame:</b>&nbsp; Add a photo frame to the uploaded picture.
+            <br>
+                <b>Reset Image:</b>&nbsp; Reset the uploaded image to its original version.
+            <br><br><br><br><br>
+            </h4>
+        </div>
+    </section>
+    <!--Section 5 - Subscription Form-->
+    <section id="signup" class="signup container">
+        <div class="signup-content">
+            <div class="signup-text">
+                <h2>Sign-up for <span class="emboss">Updates</span></h2>
+                <p> Stay updated on our latest product releases.</p>
+                <p> Be the first to find out about upcoming sales.</p>
+                <p> Unsubscribe anytime!</p>
+            </div>
+            <form class="signup-form">
+                <div class="email-bar">
+                    <input id="signup-email" type="email" placeholder="Your Email">
+                    <input id="subscribe" type="submit" value="Subscribe">
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <!--Site Footer-->
+    <footer id="site-footer" class="site-footer container">
+        <section class="site-footer-flex">
+            <div class="footer-text">
+                <div class="copyright">
+                    <p>&copy; 2020 Photomania&trade; Co.</p>
+                    <p>Powered by HTML and CSS with a touch of JavaScript</p>
+                </div>
+                <div class="contact">
+                    <p>9991094311</p>
+                    <a href="mailto:harshita.bhardwaj_cs18@gla.ac.in" target="_blank" name="Email">
+                        mail me
+                    </a>
+                </div>
+                <div class="address">
+                    <p>551/A Shiv Colony,Palwal<br /> UP,India </p>
+                </div>
+            </div>
+            <div class="social-media">
+                <ul class="social-media-list">
+                    <li>
+                        <a href="http//:www.facebook.com">
+                            <i class="fab fa-facebook"></i>
+                            <span class="social-media-name">
+                                Facebook
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http//:www.twitter.com">
+                            <i class="fab fa-twitter"></i>
+                            <span class="social-media-name">
+                                Twitter
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http//:www.instagram.com">
+                            <i class="fab fa-instagram"></i>
+                            <span class="social-media-name">
+                                Instagram
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http//:www.pinterest.com">
+                            <i class="fab fa-pinterest"></i>
+                            <span class="social-media-name">
+                                Pinterest
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <!-- ECMAscript -->
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
+<!--The End of this document-->
